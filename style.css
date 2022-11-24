@@ -2469,6 +2469,7 @@ SITE BANNER WITH VIDEO
 }
 
 .video-banner #wp-custom-header .wp-custom-header-video-button {
+  width: 50%;
   position: absolute;
   bottom: 30px;
   right: 0;

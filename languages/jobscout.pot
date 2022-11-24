@@ -337,7 +337,7 @@ msgstr ""
 
 #: inc/customizer/panels/home/banner.php:45 inc/partials.php:53
 #: sections/banner.php:9
-msgid "Aim Higher, Dream Bigger"
+msgid "FIND YOUR DREAM JOBS"
 msgstr ""
 
 #: inc/customizer/panels/home/banner.php:54
