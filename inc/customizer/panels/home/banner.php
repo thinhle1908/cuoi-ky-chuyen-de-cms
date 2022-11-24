@@ -42,7 +42,7 @@ function jobscout_customize_register_frontpage_banner( $wp_customize ) {
     $wp_customize->add_setting(
         'banner_title',
         array(
-            'default'           => __( 'FIND YOUR DREAM JOBS', 'jobscout' ),
+            'default'           => __( 'TÌM CÔNG VIỆC TRONG MƠ CỦA BẠN', 'jobscout' ),
             'sanitize_callback' => 'sanitize_text_field',
             'transport'         => 'postMessage'
         )
@@ -66,7 +66,7 @@ function jobscout_customize_register_frontpage_banner( $wp_customize ) {
     $wp_customize->add_setting(
         'banner_subtitle',
         array(
-            'default'           => __( 'The secret behind our company is simple to always put ourseleves in the other person shoes-employee, guest or customer. This allows us to see the world through their eyes, anticipate theirneeds and better understand their feelings', 'jobscout' ),
+            'default'           => __( 'Bí quyết đằng sau công ty của chúng tôi rất đơn giản là luôn đặt mình vào vị trí của người khác - nhân viên, khách mời hoặc khách hàng. Điều này cho phép chúng tôi nhìn thế giới qua đôi mắt của họ, dự đoán nhu cầu của họ và hiểu rõ hơn cảm xúc của họ', 'jobscout', 'jobscout' ),
             'sanitize_callback' => 'wp_kses_post',
             'transport'         => 'postMessage'
         )

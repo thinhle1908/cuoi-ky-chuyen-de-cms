@@ -1,3 +1,11 @@
+/* Yeu cau 1 */
+
+#wp-custom-header img{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  filter:brightness(70%);
+}
 /*!
 Theme Name: JobScout
 Theme URI: https://rarathemes.com/wordpress-themes/jobscout/
@@ -2305,9 +2313,8 @@ SITE BANNER SECTION
 .banner-caption {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 0px;
   right: 0;
-  text-align: center;
   z-index: 9;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -2315,7 +2322,8 @@ SITE BANNER SECTION
 }
 
 .banner-caption .caption-inner {
-  max-width: 770px;
+  left: 0;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2469,7 +2477,6 @@ SITE BANNER WITH VIDEO
 }
 
 .video-banner #wp-custom-header .wp-custom-header-video-button {
-  width: 50%;
   position: absolute;
   bottom: 30px;
   right: 0;
