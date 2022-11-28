@@ -7,14 +7,14 @@
  * @package JobScout
  */
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemscope itemtype="https://schema.org/Blog">
+<article class="danhsach Danhsach-pageblog" id=" post-<?php the_ID(); ?>" <?php post_class(); ?> itemscope itemtype="https://schema.org/Blog">
 	<?php 
         /**
          * @hooked jobscout_post_thumbnail - 10
         */
         do_action( 'jobscout_before_post_entry_content' );
 
-        echo '<div class="content-wrap">';
+        echo '<div class="content-wrap content-pageblog">';
         /**
          * @hooked jobscout_entry_header  - 10 
          * @hooked jobscout_entry_content - 15
