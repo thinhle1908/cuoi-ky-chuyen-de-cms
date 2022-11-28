@@ -552,8 +552,8 @@ function jobscout_fallback_svg_image( $post_thumbnail ){
    }
    $image_size = jobscout_get_image_sizes( $post_thumbnail );
    if( $image_size ){ ?>
-       <div class="svg-holder">
-            <svg class="fallback-svg" viewBox="0 0 <?php echo esc_attr( $image_size['width'] ); ?> <?php echo esc_attr( $image_size['height'] ); ?>" preserveAspectRatio="none">
+       <div class="svg-holder img-page-blog">
+            <svg class="fallback-svg svg-page-blog" viewBox="0 0 <?php echo esc_attr( $image_size['width'] ); ?> <?php echo esc_attr( $image_size['height'] ); ?>" preserveAspectRatio="none">
                    <rect width="<?php echo esc_attr( $image_size['width'] ); ?>" height="<?php echo esc_attr( $image_size['height'] ); ?>" style="fill:#f0f0f0;"></rect>
            </svg>
        </div>
