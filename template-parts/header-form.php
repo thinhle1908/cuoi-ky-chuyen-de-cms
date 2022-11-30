@@ -25,16 +25,16 @@ $jobs = get_job_listings();
 <div class="job_listings">
 
   <form class="jobscout_job_filters" method="GET" action="<?php echo esc_url($action_page) ?>">
-    <div class="search_jobs">
+    <div class="search-header-design">
 
       <div class="search_keywords">
-        <label for="search_keywords"><?php esc_html_e('Keywords', 'jobscout'); ?></label>
-        <input type="text" id="search_keywords" name="search_keywords" placeholder="<?php esc_attr_e('Từ khóa', 'jobscout'); ?>">
+        <span class="icon-search-header"><i class="fa fa-search"></i></span>
+        <input type="text" id="search-header" name="search_keywords" placeholder="<?php esc_attr_e('Từ khóa', 'jobscout'); ?>">
       </div>
 
       <div class="search_categories custom_search_categories">
-        <label for="search_category"><?php esc_html_e('Job Category', 'jobscout'); ?></label>
-        <select id="search_category" class="robo-search-category" name="search_location">
+        <span class="icon-search-header-location"><i class="fa-solid fa-location-dot"></i></span>
+        <select id="search-location-header" class="robo-search-category" name="search_location">
           <option value=""><?php _e('Địa điểm', 'jobscout'); ?></option>
           <?php foreach ($jobs->{'posts'} as $jobcat) : ?>
             <option value="<?php echo esc_html(get_the_job_location($jobcat->ID)); ?>"><?php echo esc_html(get_the_job_location($jobcat->ID)); ?></option>
@@ -56,7 +56,7 @@ $jobs = get_job_listings();
       
 
       <div class="search_submit">
-        <input type="submit" value="<?php esc_attr_e('Search', 'jobscout'); ?>" />
+        <input id="btn-search-header" type="submit" value="<?php esc_attr_e('TÌM KIẾM', 'jobscout'); ?>" />
       </div>
 
     </div>

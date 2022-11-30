@@ -1,13 +1,90 @@
 /* Yeu cau 1 */
-.banner-form{
+#btn-search-header{
+  background:#d96f20;
+  border: none;
+  height: 50px;
+  border-radius: 0px;
+  margin-left: 15px;
+}
+.search-header-design {
+  padding: 0;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.search-header-design input{
+  border-radius: 0;
+  height: 60px;
+  border:none;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  font-size: 0.8888em;
+  font-weight: 400;
+  padding: 10px 20px;
+  color: #666;
+  margin:20px;
+}
+.search-header-design select{
+  border-radius: 0;
+  height: 60px;
+  border:none;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  font-size: 0.8888em;
+  font-weight: 400;
+  padding: 10px 20px;
+  color: #666;
+  margin:20px 0px;
+}
+
+#search-header {
+  padding-left: 50px;
+  border: none;
+  border-radius: 0px;
+  height: 50px;
+  width: 600px;
+}
+
+#search-location-header {
+  margin-left: -5px;
+  padding-left: 50px;
+  border: none;
+  border-radius: 0px;
+  width: 350px;
+  height: 50px;
+}
+
+.banner-form {
   background-color: rgba(0, 0, 0, 0.57);
 }
-#wp-custom-header img{
+
+#wp-custom-header img {
   height: 400px;
-  width: 100%;  
+  width: 100%;
   object-fit: cover;
-  filter:brightness(70%);
+  filter: brightness(70%);
 }
+
+.icon-search-header {
+  color: #d96f20;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 32px;
+  z-index: 1;
+}
+
+.icon-search-header-location {
+  color: #d96f20;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 32px;
+  z-index: 1;
+}
+
 /*!
 Theme Name: JobScout
 Theme URI: https://rarathemes.com/wordpress-themes/jobscout/
