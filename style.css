@@ -1,3 +1,111 @@
+/* Yeu cau 1 */
+#btn-search-header{
+  background:#d96f20;
+  border: none;
+  height: 50px;
+  border-radius: 0px;
+  margin-left: 15px;
+  width: 150px;
+}
+.search-header-design {
+  padding: 0;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.search-header-design input{
+  border-radius: 0;
+  height: 60px;
+  border:none;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  font-size: 0.8888em;
+  font-weight: 400;
+  padding: 10px 20px;
+  color: #666;
+  margin:20px;
+}
+.search-header-design select{
+  border-radius: 0;
+  height: 60px;
+  border:none;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  font-size: 0.8888em;
+  font-weight: 400;
+  padding: 10px 20px;
+  color: #666;
+  margin:20px 0px;
+}
+
+#search-header {
+  padding-left: 50px;
+  border: none;
+  border-radius: 0px;
+  height: 50px;
+  width: 600px;
+}
+
+#search-location-header {
+  margin-left: -5px;
+  padding-left: 50px;
+  border: none;
+  border-radius: 0px;
+  width: 350px;
+  height: 50px;
+}
+
+.banner-form {
+  background-color: rgba(0, 0, 0, 0.57);
+}
+
+#wp-custom-header img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.icon-search-header {
+  color: #d96f20;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 32px;
+  z-index: 1;
+}
+
+.icon-search-header-location {
+  color: #d96f20;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 32px;
+  z-index: 1;
+}
+/* Yeu cau 3 */
+.read-more{
+  color: hsl(26deg 82% 66%);
+  font-weight: bold;
+}
+.grid-item {
+
+  padding: 10px;
+ 
+}
+
+.item1 {
+  grid-column: 1 ;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 2;
+  grid-row: 1 ;
+}
+
 /*!
 Theme Name: JobScout
 Theme URI: https://rarathemes.com/wordpress-themes/jobscout/
@@ -1371,7 +1479,7 @@ form.search-form input.search-submit:focus {
 }
 
 .page-template-default figure.post-thumbnail {
-  margin-bottom: 30px;
+ 
 }
 
 .page-template-default figure.post-thumbnail a.post-thumbnail {
@@ -2305,9 +2413,8 @@ SITE BANNER SECTION
 .banner-caption {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 0px;
   right: 0;
-  text-align: center;
   z-index: 9;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -2315,7 +2422,8 @@ SITE BANNER SECTION
 }
 
 .banner-caption .caption-inner {
-  max-width: 770px;
+  left: 0;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2920,29 +3028,35 @@ ARTICLE SECTION
 section.article-section {
   margin: 70px 0;
   text-align: center;
+  background-color: hsl(0, 0%, 90%);
 }
 
 .article-section .article-wrap {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 
 .article-section .article-wrap article {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
-  border-radius: 5px;
+  display: grid;
+  gap: 10px;
+  background:#fff;
+  padding: 5px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 2px;
   /*overflow: hidden;*/
 }
 
 .article-section .article-wrap article img {
-  width: 100%;
+  width: 200px;
+  height: 230px;
 }
 
 .article-section .article-wrap header.entry-header {
-  padding: 30px;
+  padding: 5px 0;
 }
 
 .article-section .article-wrap header.entry-header .entry-title {

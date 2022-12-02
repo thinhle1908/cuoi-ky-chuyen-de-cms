@@ -25,6 +25,7 @@
     do_action( 'jobscout_before_wp_head' );
     
     wp_head(); ?>
+    
 </head>
 
 <body <?php body_class(); ?> itemscope itemtype="https://schema.org/WebPage">

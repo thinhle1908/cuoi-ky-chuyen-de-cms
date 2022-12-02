@@ -42,7 +42,7 @@ function jobscout_customize_register_frontpage_banner( $wp_customize ) {
     $wp_customize->add_setting(
         'banner_title',
         array(
-            'default'           => __( 'Aim Higher, Dream Bigger', 'jobscout' ),
+            'default'           => __( 'TÌM CÔNG VIỆC TRONG MƠ CỦA BẠN', 'jobscout' ),
             'sanitize_callback' => 'sanitize_text_field',
             'transport'         => 'postMessage'
         )
@@ -66,7 +66,7 @@ function jobscout_customize_register_frontpage_banner( $wp_customize ) {
     $wp_customize->add_setting(
         'banner_subtitle',
         array(
-            'default'           => __( 'Each month, more than 7 million JobScout turn to website in their search for work, making over 160,000 applications every day.', 'jobscout' ),
+            'default'           => __( 'Bí quyết đằng sau công ty của chúng tôi rất đơn giản là luôn đặt mình vào vị trí của người khác - nhân viên, khách mời hoặc khách hàng. Điều này cho phép chúng tôi nhìn thế giới qua đôi mắt của họ, dự đoán nhu cầu của họ và hiểu rõ hơn cảm xúc của họ', 'jobscout', 'jobscout' ),
             'sanitize_callback' => 'wp_kses_post',
             'transport'         => 'postMessage'
         )
