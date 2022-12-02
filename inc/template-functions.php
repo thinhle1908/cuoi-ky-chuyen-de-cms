@@ -140,7 +140,8 @@ if( ! function_exists( 'jobscout_content_start' ) ) :
  * Content Start
  *  
 */
-function jobscout_content_start(){       
+
+function jobscout_content_start(){     
     echo '<div class="page-content-blog" id="acc-content "><!-- .site-header -->';
     $home_sections = jobscout_get_home_sections(); 
     if( ! ( is_front_page() && ! is_home() && $home_sections ) ){ //Make necessary adjust for pg template.
